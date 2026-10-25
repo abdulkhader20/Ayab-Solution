@@ -3,4 +3,14 @@ nexora-labs/client/node_modules/
 dist/
 nexora-labs/client/dist/
 .DS_Store
+<<<<<<< HEAD
 npm-debug.log*
+=======
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.vercel
+>>>>>>> 769f6eb (Update Nexora branding and logo)

@@ -1,0 +1,1 @@
+﻿{"query":"query { __type(name: \"PagesSite\") { name fields { name } } }"}
