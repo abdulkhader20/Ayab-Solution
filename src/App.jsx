@@ -20,7 +20,7 @@ import {
   TrendingUp,
   X,
 } from "lucide-react";
-import logo from "./assets/nexora-logo.jpg";
+import logo from "./assets/nexora-logo.png";
 import "./index.css";
 
 const brandName = "Nexora";
