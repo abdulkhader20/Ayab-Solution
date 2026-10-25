@@ -20,10 +20,10 @@ import {
   TrendingUp,
   X,
 } from "lucide-react";
-import logo from "./assets/nexora-logo.png";
+import logo from "./assets/ayab-logo.jpg";
 import "./index.css";
 
-const brandName = "Nexora";
+const brandName = "Ayab solutions";
 
 const services = [
   {
@@ -119,32 +119,32 @@ const testimonials = [
 
 const projectCards = [
   {
-    title: "ShoppyGlobe",
-    description: "Responsive e-commerce platform built with React, Redux, and React Router for product browsing, cart management, and smooth user navigation.",
+    title: "Marketplace Experience",
+    description: "A full-featured e-commerce storefront focused on clean browsing, smooth cart flow, and responsive shopping across devices.",
     image:
       "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "YouTube-Inspired Platform",
-    description: "MERN stack video platform with uploads, authentication, likes, comments, shares, and personalized recommendations for a rich streaming experience.",
+    title: "Video Platform",
+    description: "A media-rich streaming app with uploads, user authentication, engagement features, and a polished dashboard experience.",
     image:
       "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Weather Forecast App",
-    description: "Real-time weather application with location-based updates, live API integration, and a responsive interface for multi-device access.",
+    title: "Weather Dashboard",
+    description: "A live weather portal with real-time data, location-based updates, and a mobile-friendly user interface built for quick access.",
     image:
       "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "Personal Portfolio Website",
-    description: "Responsive portfolio built with HTML and CSS to present skills, projects, and professional profile in a clean user-friendly layout.",
+    title: "Portfolio Website",
+    description: "A clean personal brand site designed to present work, skills, and professional identity with a strong visual identity.",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
   },
   {
-    title: "College Fest Registration System",
-    description: "Cross-device registration app with client-side validation and dynamic form interactions for college event signups.",
+    title: "Event Registration System",
+    description: "A streamlined event signup experience with responsive forms, validation, and a simple, modern user flow for registrations.",
     image:
       "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80",
   },
@@ -216,13 +216,13 @@ function HomePage() {
             <div className="hero-copy">
               <span className="eyebrow">
                 <Sparkles size={15} />
-                Digital growth for growing businesses
+                Digital strategy for growing businesses
               </span>
               <h1>
-                Stronger local brands start with websites that convert.
+                Professional websites that make your business look premium and ready to grow.
               </h1>
               <p>
-                {brandName} creates premium, conversion-focused websites for businesses that want more trust, more leads, and a stronger digital presence without the noise.
+                {brandName} creates polished digital experiences that help businesses earn trust, stand out online, and turn attention into real enquiries.
               </p>
               <div className="hero-actions">
                 <a className="button-primary" href="#contact">
@@ -234,12 +234,12 @@ function HomePage() {
               </div>
               <div className="hero-features" aria-label="Brand strengths">
                 <span className="feature-pill"><CheckCircle2 size={14} /> Custom domain ready</span>
-                <span className="feature-pill"><CheckCircle2 size={14} /> Premium design</span>
-                <span className="feature-pill"><CheckCircle2 size={14} /> Local business growth</span>
+                <span className="feature-pill"><CheckCircle2 size={14} /> Premium positioning</span>
+                <span className="feature-pill"><CheckCircle2 size={14} /> Client-ready experience</span>
               </div>
               <div className="hero-trust">
                 <CheckCircle2 size={17} />
-                Built for businesses that want a clean, credible, and growth-focused online presence.
+                Designed for businesses that want a sharper brand presence, stronger trust, and better-quality leads.
               </div>
             </div>
 
@@ -249,7 +249,7 @@ function HomePage() {
                   <span className="dot purple" />
                   <span className="dot pink" />
                   <span className="dot gold" />
-                  <span className="mini-label">NEXORA</span>
+                  <span className="mini-label">AYAB SOLUTIONS</span>
                 </div>
                 <div className="card-body">
                   <div className="chart-box">
@@ -295,11 +295,11 @@ function HomePage() {
           <div className="container split-layout">
             <div>
               <span className="section-label">WHY TEAMS CHOOSE US</span>
-              <h2>Strategy-first software and web experiences that support real growth.</h2>
+              <h2>Strategy-first web experiences that help businesses look premium and win more trust.</h2>
             </div>
             <div className="about-copy">
               <p>
-                We work with founders, service businesses, and modern teams that need a stronger digital presence, smoother customer journey, and better tools for day-to-day operations.
+                We work with founders, service businesses, and growing brands that need a stronger digital presence, clearer positioning, and a website that feels professional from the first click.
               </p>
               <div className="feature-list">
                 <div>
@@ -319,7 +319,7 @@ function HomePage() {
           <div className="container">
             <div className="section-head narrow">
               <span className="section-label">PROJECTS</span>
-              <h2>Projects completed during my full stack development training and self-learning journey.</h2>
+              <h2>Projects I’ve completed</h2>
             </div>
             <div className="template-grid">
               {projectCards.map((project) => (
@@ -424,13 +424,36 @@ function HomePage() {
           </div>
         </section>
 
+        <section className="brand-readiness section" id="brand-readiness">
+          <div className="container">
+            <div className="section-head narrow">
+              <span className="section-label">BRAND READY</span>
+              <h2>Built to grow from a polished local presence into a premium digital brand.</h2>
+            </div>
+            <div className="readiness-grid">
+              <div className="readiness-card">
+                <h3>Custom domain</h3>
+                <p>Recommended next step: secure a custom domain that matches Ayab solutions for a stronger, more professional online identity.</p>
+              </div>
+              <div className="readiness-card">
+                <h3>Client presentation</h3>
+                <p>Every section is designed to feel premium, credible, and ready for live business conversations.</p>
+              </div>
+              <div className="readiness-card">
+                <h3>Conversion focused</h3>
+                <p>Clear calls-to-action, trust-building details, and a cleaner path from first visit to enquiry.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="contact section" id="contact">
           <div className="container contact-grid">
             <div className="contact-copy">
               <span className="section-label">LET'S TALK</span>
-              <h2>Ready to build something that feels credible from day one?</h2>
+              <h2>Need a website that looks premium and helps people trust your business instantly?</h2>
               <p>
-                Tell us what you want to improve and we’ll help you map the right next step.
+                Tell us what you need and we’ll help shape a sharper digital presence that feels professional from the very first click.
               </p>
               <div className="contact-pill">
                 <Mail size={17} />
@@ -493,8 +516,8 @@ function HomePage() {
               {brandName}
             </span>
           </Link>
-          <p>Thoughtfully designed for growing businesses.</p>
-          <span>© {new Date().getFullYear()} {brandName}</span>
+          <p>Designed for service brands, founders, and businesses ready to grow.</p>
+          <span>© {new Date().getFullYear()} {brandName}. Built to stand out online.</span>
         </div>
       </footer>
     </>

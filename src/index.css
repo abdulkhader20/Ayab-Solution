@@ -95,7 +95,7 @@ img {
   font-weight: 800;
   letter-spacing: -0.08em;
   color: #0f172a;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .brand em {
@@ -776,6 +776,36 @@ img {
   font-size: 0.8rem;
 }
 
+.brand-readiness {
+  padding-top: 20px;
+}
+
+.readiness-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.readiness-card {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(240, 245, 255, 0.95));
+  border: 1px solid rgba(99, 102, 241, 0.12);
+  border-radius: 22px;
+  padding: 24px 20px;
+  box-shadow: 0 18px 30px rgba(79, 70, 229, 0.08);
+}
+
+.readiness-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.18rem;
+  color: #0f172a;
+}
+
+.readiness-card p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
@@ -798,6 +828,7 @@ img {
   background: rgba(79, 70, 229, 0.06);
   color: #312e81;
   font-weight: 600;
+  box-shadow: 0 8px 18px rgba(79, 70, 229, 0.05);
 }
 
 .address-pill {
@@ -816,9 +847,9 @@ img {
   gap: 14px;
   padding: 28px 24px;
   border-radius: 22px;
-  background: rgba(17, 24, 39, 0.9);
-  border: 1px solid var(--border);
-  box-shadow: var(--shadow);
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.96), rgba(17, 24, 39, 0.9));
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  box-shadow: 0 28px 45px rgba(15, 23, 42, 0.18);
 }
 
 .contact-form label {
@@ -878,9 +909,9 @@ img {
 }
 
 .site-footer {
-  border-top: 1px solid var(--border);
-  background: linear-gradient(180deg, #eef4ff 0%, #f5f7ff 100%);
-  padding: 28px 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.2);
+  background: linear-gradient(180deg, #0f172a 0%, #111827 100%);
+  padding: 30px 0;
 }
 
 .footer-layout {
@@ -888,12 +919,22 @@ img {
   align-items: center;
   justify-content: space-between;
   gap: 18px;
-  color: var(--muted);
+  color: #cbd5e1;
   font-size: 0.82rem;
 }
 
 .footer-brand {
-  color: #fff;
+  color: #f8fafc;
+  font-weight: 800;
+}
+
+.footer-brand span {
+  color: #f8fafc;
+}
+
+.footer-layout p,
+.footer-layout span {
+  color: #dbeafe;
 }
 
 .auth-page {
