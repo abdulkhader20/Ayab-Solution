@@ -23,7 +23,7 @@ import {
 import logo from "./assets/ayab-logo.jpg";
 import "./index.css";
 
-const brandName = "Ayab Solutions";
+const brandName = "Ayab solutions";
 
 const services = [
   {
